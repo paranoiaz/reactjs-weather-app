@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 400;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  color: #FFFFFF;
+}
+
+.app .container {
+  max-width: 600px;
+  height: 600px;
+  margin: auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  top: 10%;
+  background-color: #C9AEAE;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background: #D66D75;
+  background: linear-gradient(to right, #E29587, #D66D75);
+}
+
+.app .container .search-container {
+  text-align: center;
+}
+
+.app .container .search-container input {
+  padding: 0.5rem 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.app .container .search-container input:focus {
+  outline: none;
+}
+
+.app .container .top-container {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.app .container .bottom-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 3%;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
