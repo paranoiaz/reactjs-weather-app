@@ -1,5 +1,5 @@
 # ReactJS Weather App
-Placeholder
+A simple weather app with a clean design. Use it like an app or even a widget.
 
 **Dependencies**
 ```
