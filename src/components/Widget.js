@@ -1,14 +1,14 @@
 import { useState } from "react";
 import axios from "axios";
 
-import config from "../config.js"
+import config from "../config.js";
 import Card from "./Card.js";
 
 export default function Widget() {
     const [location, setLocation] = useState("");
     const [unit, setUnit] = useState("metric");
     const [responseData, setResponseData] = useState({});
-    const url = `${config.ENDPOINT}?q=${location}&units=${unit}&appid=${config.KEY}`
+    const url = `${config.ENDPOINT}?q=${location}&units=${unit}&appid=${config.KEY}`;
 
     function searchLocation(event) {
         if (event.key === "Enter") {
@@ -24,7 +24,7 @@ export default function Widget() {
     }
 
     function switchUnit() {
-        setUnit(unit === "metric" ? "imperial" : "metric")
+        setUnit(unit === "metric" ? "imperial" : "metric");
         // reset data after unit change
         setResponseData({});
     }
