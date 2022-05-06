@@ -10,4 +10,4 @@ axios
 
 **Notes**
 
-Run ```npm start``` to run the web application. Make sure to edit the config file before running.
+Run ```npm start``` to run the web application. Make sure to get an OpenWeather API key and edit the config file before running.
